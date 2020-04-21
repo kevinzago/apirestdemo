@@ -16,6 +16,7 @@ step-develop:
     - develop
   script:
     - echo running tests in $DYNAMIC_ENV_VAR
+    - npm test
 
 step-uat:
   stage: deploy
